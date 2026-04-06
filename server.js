@@ -25,7 +25,7 @@ connectDB();
 const PORT = 3500;
 
 app.get("/", (req, res) => {
-  res.send("Hello Geeks");
+  res.redirect("https://vantage-destinations.netlify.app/");
 });
 
 app.use("/api/hoteldata", hotelDataAddedToDBRouter);

@@ -2,7 +2,6 @@ const { v4: uuid } = require("uuid");
 
 const hotels = {
   data: [
-    // NATIONAL PARKS (keeping your existing ones + adding more)
     {
       id: uuid(),
       name: "Whispering Pines Cottages",
